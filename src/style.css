@@ -1,0 +1,149 @@
+
+* {
+  margin: 0;
+    padding: 0;
+      box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+          background: #0b1120;
+            color: #ffffff;
+            }
+
+            .app {
+              max-width: 900px;
+                margin: auto;
+                  padding: 25px 18px;
+                  }
+
+                  header {
+                    background: linear-gradient(135deg, #172554, #2563eb);
+                      padding: 30px 20px;
+                        border-radius: 18px;
+                          margin-bottom: 25px;
+                          }
+
+                          header h1 {
+                            font-size: 32px;
+                              margin-bottom: 8px;
+                              }
+
+                              header p {
+                                color: #dbeafe;
+                                  margin-bottom: 15px;
+                                  }
+
+                                  header span {
+                                    background: #16a34a;
+                                      padding: 7px 12px;
+                                        border-radius: 20px;
+                                          font-size: 12px;
+                                          }
+
+                                          .resumen {
+                                            display: grid;
+                                              grid-template-columns: 1fr 1fr;
+                                                gap: 15px;
+                                                  margin-bottom: 25px;
+                                                  }
+
+                                                  .resumen div,
+                                                  .panel {
+                                                    background: #172033;
+                                                      padding: 22px;
+                                                        border-radius: 15px;
+                                                          border: 1px solid #26354d;
+                                                          }
+
+                                                          .resumen h3 {
+                                                            color: #94a3b8;
+                                                              font-size: 14px;
+                                                                margin-bottom: 10px;
+                                                                }
+
+                                                                .resumen strong {
+                                                                  font-size: 28px;
+                                                                    color: #60a5fa;
+                                                                    }
+
+                                                                    .panel {
+                                                                      margin-bottom: 22px;
+                                                                      }
+
+                                                                      .panel h2 {
+                                                                        margin-bottom: 20px;
+                                                                          font-size: 20px;
+                                                                          }
+
+                                                                          form {
+                                                                            display: flex;
+                                                                              flex-direction: column;
+                                                                                gap: 13px;
+                                                                                }
+
+                                                                                input {
+                                                                                  width: 100%;
+                                                                                    padding: 14px;
+                                                                                      border: 1px solid #334155;
+                                                                                        border-radius: 9px;
+                                                                                          background: #0f172a;
+                                                                                            color: white;
+                                                                                              font-size: 15px;
+                                                                                              }
+
+                                                                                              button {
+                                                                                                padding: 14px;
+                                                                                                  border: none;
+                                                                                                    border-radius: 9px;
+                                                                                                      background: #2563eb;
+                                                                                                        color: white;
+                                                                                                          font-weight: bold;
+                                                                                                            font-size: 15px;
+                                                                                                              cursor: pointer;
+                                                                                                              }
+
+                                                                                                              button:active {
+                                                                                                                opacity: 0.8;
+                                                                                                                }
+
+                                                                                                                .vacio {
+                                                                                                                  color: #94a3b8;
+                                                                                                                    text-align: center;
+                                                                                                                      padding: 20px 0;
+                                                                                                                      }
+
+                                                                                                                      .producto {
+                                                                                                                        display: flex;
+                                                                                                                          justify-content: space-between;
+                                                                                                                            align-items: center;
+                                                                                                                              gap: 12px;
+                                                                                                                                padding: 15px 0;
+                                                                                                                                  border-bottom: 1px solid #334155;
+                                                                                                                                  }
+
+                                                                                                                                  .producto p {
+                                                                                                                                    color: #94a3b8;
+                                                                                                                                      font-size: 13px;
+                                                                                                                                        margin-top: 6px;
+                                                                                                                                        }
+
+                                                                                                                                        .eliminar {
+                                                                                                                                          background: #dc2626;
+                                                                                                                                            font-size: 12px;
+                                                                                                                                            }
+
+                                                                                                                                            footer {
+                                                                                                                                              text-align: center;
+                                                                                                                                                color: #64748b;
+                                                                                                                                                  padding: 25px 0;
+                                                                                                                                                    font-size: 12px;
+                                                                                                                                                    }
+
+                                                                                                                                                    @media (max-width: 400px) {
+                                                                                                                                                      .producto {
+                                                                                                                                                          align-items: flex-start;
+                                                                                                                                                              flex-direction: column;
+                                                                                                                                                                }
+                                                                                                                                                                }
+                                                                                                                                                                
